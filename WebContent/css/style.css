@@ -1,0 +1,170 @@
+body{
+	background-image: url("images/wallpaper.png");
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment : fixed;
+    padding:0 0;
+    margin: 0 0;
+    
+}
+
+.form{
+	color: white;
+	margin: 1% auto;
+	width : 40%;
+	border: 1px solid #f1f1f1;
+	padding : 1%;
+}
+
+input{
+    width: 100%;
+    padding: 1%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-size:18;
+}
+
+.img{
+	height : 40%;
+	width : 40%;
+	margin: 0 auto;
+}
+
+img{
+	margin: 0 auto;
+	width : 100%;
+	height : 100%;
+	object-fit: contain;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+	opacity : 0.6;
+}
+
+.nav ul{
+	 list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    width: 20%;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.nav li a{
+    display: block;
+    color: #ffffff;
+    height : 5%;
+    padding: 3%;
+    text-decoration: none;
+    text-align : center;
+
+}
+
+.nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#profile img{
+	height :25%;
+	width : 98%;
+	margin : 0 auto;
+    border: 1px solid #73AD21;
+    border-radius : 10%;
+	object-fit : contain;
+	background-color : black;
+}
+
+.thought-div{
+	width:100%;
+	height:50%;
+	background: rgba(255,255,255,0.5);
+	margin:2% 0%;
+}
+
+.thought{
+	position : relative;
+	margin : 1% auto;
+	width : 50%;
+	height : 100%;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.thought-author{
+	height:70%;
+	width:23%;
+	float:left;
+	border-radius: 100%;
+	margin-top:1%;
+	text-align:right;
+	
+}
+
+.thought-author img{
+	height:100px;
+	width:100px;
+	float:right;
+	border-radius: 100%;
+	object-fit: cover;
+	margin: 0 auto;
+}
+.thought img{
+	object-fit : cover;
+}
+
+.thought #options{
+	position : absolute;
+	top: 0;
+}
+
+.thought #content{
+	position : absolute;
+	bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    height : 30%;
+    width: 100%;
+    text-align : center;
+}
+
+.header{
+	
+	height : 80px;
+}
+.header h1{
+	margin : 0 2%;
+}
+
+.main-nav li{
+	display : inline;
+	float : right;
+	padding : 0 1%;
+}
+a{
+	text-decoration : none;
+}
+.main-nav a{
+	color:white;
+}
+.nav-div{
+	height : auto;
+	background-color : #6f8ba9;
+	padding : 4px;
+}

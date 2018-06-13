@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+<body>
+	
+	<div class="img">
+		<img src="css/images/add-author-image.jpg"/>
+	</div>
+	
+	<form action="ControllerServlet" method="GET" class="form">
+		
+		<input type="hidden" name="command" value="ADD_AUTHOR"/>
+		
+		Name:<input type="text" name="author_name"/><br/><br/>
+		Email:<input type="email" name="author_email"/><br/><br/>
+		Password<input type="password" name="author_password"/><br/><br/>
+				
+		<button type="submit" value="submit">Submit</button>
+	
+	</form>
+
+</body>
+
+</html>
